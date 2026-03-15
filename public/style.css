@@ -1,0 +1,204 @@
+/* ==================== 
+   GENERAL STYLES
+   ==================== */
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: #f0f8fa;
+  padding: 20px;
+  margin: 0;
+}
+
+/* ==================== 
+   TYPOGRAPHY 
+   ==================== */
+
+h1 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin: 0;
+  padding: 8px 0;
+  border: none;
+}
+
+h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 0;
+  padding: 6px 0;
+  border: none;
+}
+
+h3 {
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 0;
+  padding: 4px 0;
+  border: none;
+}
+
+h4 {
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin: 12px 0 6px 0;
+  padding: 0;
+  border: none;
+  color: inherit;
+}
+
+p {
+  margin: 0;
+  padding: 8px 0;
+  line-height: 1.6;
+}
+
+/* ==================== 
+   LAYOUT
+   ==================== */
+
+.resume-wrapper {
+display: grid;
+grid-template-columns: 1fr 2fr;
+gap: 40px;
+max-width: 1200px;
+margin: 0 auto;
+}
+
+.left-column aside {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.right-column {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.card {
+  border-radius: 20px; /* Creates the rounded corners */
+  padding: 24px;       /* Adds breathing room so your text doesn't touch the edges */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.header-box {
+  background: linear-gradient(135deg, #4BA5C3 0%, #5CB8D3 100%);
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.header-name {
+  flex: 1;
+}
+
+.header-name h1 {
+  font-size: 2.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+.header-info {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.contact-info {
+  text-align: right;
+}
+
+.contact-info h3 {
+  font-size: 1.1rem;
+  margin: 0 0 12px 0;
+  padding: 0;
+}
+
+.contact-info h4 {
+  font-size: 0.95rem;
+  margin: 4px 0;
+  padding: 0;
+  font-weight: 400;
+}
+
+.about-section {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  padding-top: 16px;
+}
+
+.about-section h3 {
+  font-size: 1.1rem;
+  margin: 0 0 12px 0;
+  padding: 0;
+}
+
+.about-section p {
+  margin: 0;
+  padding: 0;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.languages-box {
+  background: linear-gradient(135deg, #2B7A9B 0%, #3A8BAD 100%);
+  color: #ffffff;
+}
+
+.skills-box {
+  background: linear-gradient(135deg, #6CC4D9 0%, #7DD4E8 100%);
+  color: #1a3a42;
+}
+
+.main-content-box {
+  background: linear-gradient(135deg, #4BA5C3 0%, #3A94B0 100%);
+  color: #1a3a42;
+}
+
+/* ==================== 
+   TEXT SPACING
+   ==================== */
+
+ul {
+  margin: 0;
+  padding: 8px 0 8px 24px;
+  list-style-type: disc;
+}
+
+li {
+  margin: 0;
+  padding: 4px 0;
+  line-height: 1.6;
+}
+
+/* ==================== 
+   PROFILE PICTURE
+   ==================== */
+
+.profile-pic {
+  width: 80%;
+  height: auto;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: block;
+}
+
+/* ==================== 
+   EXPERIENCE DETAILS
+   ==================== */
+
+.experience-details {
+  margin-left: 20px;
+  padding-left: 12px;
+  border-left: 3px solid rgba(75, 165, 195, 0.3);
+}
+}
